@@ -28,4 +28,4 @@ fi
 
 # Run Docker images
 echo "Running Docker images 🚀"
-docker-compose $DOCKER_COMPOSE_ARGS up --build
+docker compose $DOCKER_COMPOSE_ARGS up --build
