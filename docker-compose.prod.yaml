@@ -102,7 +102,7 @@ services:
       - ./env/.env.prod
     stdin_open: true
     ports:
-      - 80:80
+      - 30080:80
     volumes:
       - django_static_volume:/app/backend/server/django_staticfiles
     depends_on:
