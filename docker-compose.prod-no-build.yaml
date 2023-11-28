@@ -4,6 +4,8 @@ services:
     restart: on-failure
     expose:
       - 5432
+    ports:
+      - "30432:5432"
     volumes:
       - ./pgdata_prod:/var/lib/postgresql/data
     env_file:
